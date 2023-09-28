@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Note Taker</h1>
+        <h6>Add A New Note:</h6>
+      </div>
+      <span class="area"
+        ><p class="side">Note:</p>
+        <input type="text" class="note" placeholder="Enter a note!"
+      /></span>
+      <button class="btn">Add Note</button>
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Note</div>
+        <button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body"></div>
+    </div>
+    <div id="overlay"></div>
+    <div class="main"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
